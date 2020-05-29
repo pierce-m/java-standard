@@ -2,8 +2,9 @@ package codecov;
 
 public class Index {
     public boolean uncovered_if(boolean a) {
+        int f = 10,
         if (a) 
-            return false;
+            return f;
         else
             return true;
     }   
